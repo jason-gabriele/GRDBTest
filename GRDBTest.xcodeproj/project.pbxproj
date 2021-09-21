@@ -1,0 +1,739 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23E03B1D578771C92A8999C2 /* Pods_main_GRDBTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0051B01E9D178A3B92A2678 /* Pods_main_GRDBTest.framework */; };
+		2B5A4D4626FA57660058B51D /* GRDBTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B5A4D3C26FA57650058B51D /* GRDBTest.framework */; };
+		2B5A4D4B26FA57660058B51D /* GRDBTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5A4D4A26FA57660058B51D /* GRDBTestTests.swift */; };
+		2B5A4D4D26FA57660058B51D /* GRDBTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B5A4D3F26FA57650058B51D /* GRDBTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B5A4D6B26FA58010058B51D /* WatchOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B5A4D5D26FA58000058B51D /* WatchOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8916B4136CF9A4B583B06BD9 /* Pods_main_WatchOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF365DDE96C795F830AC75AF /* Pods_main_WatchOS.framework */; };
+		D72BE654D505BEA0806FFE23 /* Pods_main_GRDBTest_GRDBTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84E1EF38EEE4B9D05385F49A /* Pods_main_GRDBTest_GRDBTestTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B5A4D4726FA57660058B51D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B5A4D3326FA57650058B51D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B5A4D3B26FA57650058B51D;
+			remoteInfo = GRDBTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C00BD28C5AECB2C6736E917 /* Pods-GRDBTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GRDBTest.debug.xcconfig"; path = "Target Support Files/Pods-GRDBTest/Pods-GRDBTest.debug.xcconfig"; sourceTree = "<group>"; };
+		2B151475E373299937AFFBE7 /* Pods-GRDBTest-GRDBTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GRDBTest-GRDBTestTests.debug.xcconfig"; path = "Target Support Files/Pods-GRDBTest-GRDBTestTests/Pods-GRDBTest-GRDBTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2B5A4D3C26FA57650058B51D /* GRDBTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GRDBTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B5A4D3F26FA57650058B51D /* GRDBTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GRDBTest.h; sourceTree = "<group>"; };
+		2B5A4D4026FA57650058B51D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B5A4D4526FA57650058B51D /* GRDBTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GRDBTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B5A4D4A26FA57660058B51D /* GRDBTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GRDBTestTests.swift; sourceTree = "<group>"; };
+		2B5A4D4C26FA57660058B51D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B5A4D5B26FA58000058B51D /* WatchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WatchOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B5A4D5D26FA58000058B51D /* WatchOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WatchOS.h; sourceTree = "<group>"; };
+		2B5A4D5E26FA58000058B51D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		330212C09D43BFE416191993 /* Pods-main-GRDBTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-main-GRDBTest.release.xcconfig"; path = "Target Support Files/Pods-main-GRDBTest/Pods-main-GRDBTest.release.xcconfig"; sourceTree = "<group>"; };
+		49EE11A4DA677FD2DAA61148 /* Pods-main-WatchOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-main-WatchOS.release.xcconfig"; path = "Target Support Files/Pods-main-WatchOS/Pods-main-WatchOS.release.xcconfig"; sourceTree = "<group>"; };
+		5EC56DBFB2A52444F4ECAAC0 /* Pods-GRDBTest-GRDBTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GRDBTest-GRDBTestTests.release.xcconfig"; path = "Target Support Files/Pods-GRDBTest-GRDBTestTests/Pods-GRDBTest-GRDBTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		84E1EF38EEE4B9D05385F49A /* Pods_main_GRDBTest_GRDBTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_main_GRDBTest_GRDBTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		927026C5243DB03993485D04 /* Pods-main-WatchOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-main-WatchOS.debug.xcconfig"; path = "Target Support Files/Pods-main-WatchOS/Pods-main-WatchOS.debug.xcconfig"; sourceTree = "<group>"; };
+		968A2246AE17F0B462F61B1E /* Pods_main_WatchOS_WatchOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_main_WatchOS_WatchOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BB600CFBAE5800033F13879 /* Pods-main-GRDBTest-GRDBTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-main-GRDBTest-GRDBTestTests.debug.xcconfig"; path = "Target Support Files/Pods-main-GRDBTest-GRDBTestTests/Pods-main-GRDBTest-GRDBTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B997985409A1D2CDF5E6BE7F /* Pods-main-WatchOS-WatchOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-main-WatchOS-WatchOSTests.debug.xcconfig"; path = "Target Support Files/Pods-main-WatchOS-WatchOSTests/Pods-main-WatchOS-WatchOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C0051B01E9D178A3B92A2678 /* Pods_main_GRDBTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_main_GRDBTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C00C76B7E1A2E8AD35B706AF /* Pods-GRDBTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GRDBTest.release.xcconfig"; path = "Target Support Files/Pods-GRDBTest/Pods-GRDBTest.release.xcconfig"; sourceTree = "<group>"; };
+		D12EF8D0CA4E5056C9A52242 /* Pods-main-GRDBTest-GRDBTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-main-GRDBTest-GRDBTestTests.release.xcconfig"; path = "Target Support Files/Pods-main-GRDBTest-GRDBTestTests/Pods-main-GRDBTest-GRDBTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		D8AA0171CE4A3DDB593E803C /* Pods-main-WatchOS-WatchOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-main-WatchOS-WatchOSTests.release.xcconfig"; path = "Target Support Files/Pods-main-WatchOS-WatchOSTests/Pods-main-WatchOS-WatchOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		DCCD995420B6E4B2529F0957 /* Pods-main-GRDBTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-main-GRDBTest.debug.xcconfig"; path = "Target Support Files/Pods-main-GRDBTest/Pods-main-GRDBTest.debug.xcconfig"; sourceTree = "<group>"; };
+		EF365DDE96C795F830AC75AF /* Pods_main_WatchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_main_WatchOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B5A4D3926FA57650058B51D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23E03B1D578771C92A8999C2 /* Pods_main_GRDBTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B5A4D4226FA57650058B51D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B5A4D4626FA57660058B51D /* GRDBTest.framework in Frameworks */,
+				D72BE654D505BEA0806FFE23 /* Pods_main_GRDBTest_GRDBTestTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B5A4D5826FA58000058B51D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8916B4136CF9A4B583B06BD9 /* Pods_main_WatchOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B5A4D3226FA57650058B51D = {
+			isa = PBXGroup;
+			children = (
+				2B5A4D3E26FA57650058B51D /* GRDBTest */,
+				2B5A4D4926FA57660058B51D /* GRDBTestTests */,
+				2B5A4D5C26FA58000058B51D /* WatchOS */,
+				2B5A4D3D26FA57650058B51D /* Products */,
+				64C431CD8D6C1CC2F3E12234 /* Pods */,
+				E34F999A1DD9ED6D021936AA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2B5A4D3D26FA57650058B51D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B5A4D3C26FA57650058B51D /* GRDBTest.framework */,
+				2B5A4D4526FA57650058B51D /* GRDBTestTests.xctest */,
+				2B5A4D5B26FA58000058B51D /* WatchOS.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B5A4D3E26FA57650058B51D /* GRDBTest */ = {
+			isa = PBXGroup;
+			children = (
+				2B5A4D3F26FA57650058B51D /* GRDBTest.h */,
+				2B5A4D4026FA57650058B51D /* Info.plist */,
+			);
+			path = GRDBTest;
+			sourceTree = "<group>";
+		};
+		2B5A4D4926FA57660058B51D /* GRDBTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				2B5A4D4A26FA57660058B51D /* GRDBTestTests.swift */,
+				2B5A4D4C26FA57660058B51D /* Info.plist */,
+			);
+			path = GRDBTestTests;
+			sourceTree = "<group>";
+		};
+		2B5A4D5C26FA58000058B51D /* WatchOS */ = {
+			isa = PBXGroup;
+			children = (
+				2B5A4D5D26FA58000058B51D /* WatchOS.h */,
+				2B5A4D5E26FA58000058B51D /* Info.plist */,
+			);
+			path = WatchOS;
+			sourceTree = "<group>";
+		};
+		64C431CD8D6C1CC2F3E12234 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0C00BD28C5AECB2C6736E917 /* Pods-GRDBTest.debug.xcconfig */,
+				C00C76B7E1A2E8AD35B706AF /* Pods-GRDBTest.release.xcconfig */,
+				2B151475E373299937AFFBE7 /* Pods-GRDBTest-GRDBTestTests.debug.xcconfig */,
+				5EC56DBFB2A52444F4ECAAC0 /* Pods-GRDBTest-GRDBTestTests.release.xcconfig */,
+				DCCD995420B6E4B2529F0957 /* Pods-main-GRDBTest.debug.xcconfig */,
+				330212C09D43BFE416191993 /* Pods-main-GRDBTest.release.xcconfig */,
+				9BB600CFBAE5800033F13879 /* Pods-main-GRDBTest-GRDBTestTests.debug.xcconfig */,
+				D12EF8D0CA4E5056C9A52242 /* Pods-main-GRDBTest-GRDBTestTests.release.xcconfig */,
+				927026C5243DB03993485D04 /* Pods-main-WatchOS.debug.xcconfig */,
+				49EE11A4DA677FD2DAA61148 /* Pods-main-WatchOS.release.xcconfig */,
+				B997985409A1D2CDF5E6BE7F /* Pods-main-WatchOS-WatchOSTests.debug.xcconfig */,
+				D8AA0171CE4A3DDB593E803C /* Pods-main-WatchOS-WatchOSTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E34F999A1DD9ED6D021936AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0051B01E9D178A3B92A2678 /* Pods_main_GRDBTest.framework */,
+				84E1EF38EEE4B9D05385F49A /* Pods_main_GRDBTest_GRDBTestTests.framework */,
+				EF365DDE96C795F830AC75AF /* Pods_main_WatchOS.framework */,
+				968A2246AE17F0B462F61B1E /* Pods_main_WatchOS_WatchOSTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2B5A4D3726FA57650058B51D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B5A4D4D26FA57660058B51D /* GRDBTest.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B5A4D5626FA58000058B51D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B5A4D6B26FA58010058B51D /* WatchOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2B5A4D3B26FA57650058B51D /* GRDBTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B5A4D5026FA57660058B51D /* Build configuration list for PBXNativeTarget "GRDBTest" */;
+			buildPhases = (
+				1D43F74572A95D0F57BAA868 /* [CP] Check Pods Manifest.lock */,
+				2B5A4D3726FA57650058B51D /* Headers */,
+				2B5A4D3826FA57650058B51D /* Sources */,
+				2B5A4D3926FA57650058B51D /* Frameworks */,
+				2B5A4D3A26FA57650058B51D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GRDBTest;
+			productName = GRDBTest;
+			productReference = 2B5A4D3C26FA57650058B51D /* GRDBTest.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2B5A4D4426FA57650058B51D /* GRDBTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B5A4D5326FA57660058B51D /* Build configuration list for PBXNativeTarget "GRDBTestTests" */;
+			buildPhases = (
+				130776D68541F10A44E73070 /* [CP] Check Pods Manifest.lock */,
+				2B5A4D4126FA57650058B51D /* Sources */,
+				2B5A4D4226FA57650058B51D /* Frameworks */,
+				2B5A4D4326FA57650058B51D /* Resources */,
+				FBA8F8B9BA0EEDDC2385AE27 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B5A4D4826FA57660058B51D /* PBXTargetDependency */,
+			);
+			name = GRDBTestTests;
+			productName = GRDBTestTests;
+			productReference = 2B5A4D4526FA57650058B51D /* GRDBTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2B5A4D5A26FA58000058B51D /* WatchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B5A4D6C26FA58010058B51D /* Build configuration list for PBXNativeTarget "WatchOS" */;
+			buildPhases = (
+				A9D221B42CB0D97605D54BC4 /* [CP] Check Pods Manifest.lock */,
+				2B5A4D5626FA58000058B51D /* Headers */,
+				2B5A4D5726FA58000058B51D /* Sources */,
+				2B5A4D5826FA58000058B51D /* Frameworks */,
+				2B5A4D5926FA58000058B51D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WatchOS;
+			productName = WatchOS;
+			productReference = 2B5A4D5B26FA58000058B51D /* WatchOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B5A4D3326FA57650058B51D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					2B5A4D3B26FA57650058B51D = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					2B5A4D4426FA57650058B51D = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					2B5A4D5A26FA58000058B51D = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 2B5A4D3626FA57650058B51D /* Build configuration list for PBXProject "GRDBTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B5A4D3226FA57650058B51D;
+			productRefGroup = 2B5A4D3D26FA57650058B51D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B5A4D3B26FA57650058B51D /* GRDBTest */,
+				2B5A4D4426FA57650058B51D /* GRDBTestTests */,
+				2B5A4D5A26FA58000058B51D /* WatchOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B5A4D3A26FA57650058B51D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B5A4D4326FA57650058B51D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B5A4D5926FA58000058B51D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		130776D68541F10A44E73070 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-main-GRDBTest-GRDBTestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1D43F74572A95D0F57BAA868 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-main-GRDBTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9D221B42CB0D97605D54BC4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-main-WatchOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBA8F8B9BA0EEDDC2385AE27 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-main-GRDBTest-GRDBTestTests/Pods-main-GRDBTest-GRDBTestTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-main-GRDBTest-GRDBTestTests/Pods-main-GRDBTest-GRDBTestTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-main-GRDBTest-GRDBTestTests/Pods-main-GRDBTest-GRDBTestTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B5A4D3826FA57650058B51D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B5A4D4126FA57650058B51D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B5A4D4B26FA57660058B51D /* GRDBTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B5A4D5726FA58000058B51D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B5A4D4826FA57660058B51D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B5A4D3B26FA57650058B51D /* GRDBTest */;
+			targetProxy = 2B5A4D4726FA57660058B51D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2B5A4D4E26FA57660058B51D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2B5A4D4F26FA57660058B51D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2B5A4D5126FA57660058B51D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCCD995420B6E4B2529F0957 /* Pods-main-GRDBTest.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = VJ4FYMJF5R;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = GRDBTest/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.GRDBTest;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2B5A4D5226FA57660058B51D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 330212C09D43BFE416191993 /* Pods-main-GRDBTest.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = VJ4FYMJF5R;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = GRDBTest/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.GRDBTest;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2B5A4D5426FA57660058B51D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BB600CFBAE5800033F13879 /* Pods-main-GRDBTest-GRDBTestTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VJ4FYMJF5R;
+				INFOPLIST_FILE = GRDBTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.GRDBTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2B5A4D5526FA57660058B51D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D12EF8D0CA4E5056C9A52242 /* Pods-main-GRDBTest-GRDBTestTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VJ4FYMJF5R;
+				INFOPLIST_FILE = GRDBTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.GRDBTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2B5A4D6D26FA58010058B51D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 927026C5243DB03993485D04 /* Pods-main-WatchOS.debug.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = VJ4FYMJF5R;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = WatchOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.WatchOS;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Debug;
+		};
+		2B5A4D6E26FA58010058B51D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49EE11A4DA677FD2DAA61148 /* Pods-main-WatchOS.release.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = VJ4FYMJF5R;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = WatchOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.WatchOS;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B5A4D3626FA57650058B51D /* Build configuration list for PBXProject "GRDBTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B5A4D4E26FA57660058B51D /* Debug */,
+				2B5A4D4F26FA57660058B51D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B5A4D5026FA57660058B51D /* Build configuration list for PBXNativeTarget "GRDBTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B5A4D5126FA57660058B51D /* Debug */,
+				2B5A4D5226FA57660058B51D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B5A4D5326FA57660058B51D /* Build configuration list for PBXNativeTarget "GRDBTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B5A4D5426FA57660058B51D /* Debug */,
+				2B5A4D5526FA57660058B51D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B5A4D6C26FA58010058B51D /* Build configuration list for PBXNativeTarget "WatchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B5A4D6D26FA58010058B51D /* Debug */,
+				2B5A4D6E26FA58010058B51D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B5A4D3326FA57650058B51D /* Project object */;
+}

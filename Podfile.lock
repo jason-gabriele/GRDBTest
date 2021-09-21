@@ -1,0 +1,33 @@
+PODS:
+  - GRDB.swift/SQLCipher (5.11.0):
+    - SQLCipher (>= 3.4.0)
+  - SQLCipher (4.4.3):
+    - SQLCipher/standard (= 4.4.3)
+  - SQLCipher/common (4.4.3)
+  - SQLCipher/standard (4.4.3):
+    - SQLCipher/common
+
+DEPENDENCIES:
+  - "GRDB.swift/SQLCipher (from `git@github.com:groue/GRDB.swift.git`)"
+  - SQLCipher (= 4.4.3)
+
+SPEC REPOS:
+  trunk:
+    - SQLCipher
+
+EXTERNAL SOURCES:
+  GRDB.swift:
+    :git: "git@github.com:groue/GRDB.swift.git"
+
+CHECKOUT OPTIONS:
+  GRDB.swift:
+    :commit: 1acf8e4b1ea90ed314c7c477051efc7933946b22
+    :git: "git@github.com:groue/GRDB.swift.git"
+
+SPEC CHECKSUMS:
+  GRDB.swift: 9a33d9680cd3c870c82f48a6cbc73d3cfbb235eb
+  SQLCipher: 155ffeafc9ac102e5c9b68e3e9a1297a98a27096
+
+PODFILE CHECKSUM: fce92a05d59f0385daf6ed04ed1ae9dd6d3607a4
+
+COCOAPODS: 1.10.1
